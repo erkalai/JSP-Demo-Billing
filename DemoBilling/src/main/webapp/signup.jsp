@@ -6,7 +6,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="./css/style.css">
-<script src="./js/app.js" defer></script> 
+<!-- <script src="./js/app.js" defer></script>  -->
 <title>Sign Up</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
                     <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"  class="img-fluid"  alt="Login Image">
                 </div>
                     <div class="col text-center mt-5 pt-5 col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                        <form action="" name="" method="" id="form">
+                        <form action="register" name="" method="post" id="form">
                         <p class="lead fw-bold mb-1">Sign Up</p>
                         <div class="form-outline mb-2">
                             <input type="text" name="uname" id="uname" class="form-control" placeholder="Enter Your Name">
@@ -45,7 +45,7 @@
                         </div>
                                 <button class="btn btn-primary btn-lg mt-2 d-flex align-items-left" >Register</button>
         
-                                <p class="small mt-2 pt-1 fw-bold d-flex align-items-left">Already have an account? <a href="login.html" class="text-primary ">Login</a></p>
+                                <p class="small mt-2 pt-1 fw-bold d-flex align-items-left">Already have an account? <a href="login.jsp" class="text-primary ">Login</a></p>
                         </form>
                     </div> 
             </div>
